@@ -8,43 +8,69 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
       rel="stylesheet"
     />
-    <title>Автошкола Константа-ГС | Головна</title>
+    <title>Автошкола Next Drive | Головна</title>
   </head>
+  <style>
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+  </style>
   <body class="bg-gray-50 font-sans">
-    <nav class="bg-white shadow-sm sticky top-0 z-50">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="flex justify-between h-20 items-center">
-          <div class="flex items-center space-x-2">
-            <div class="bg-blue-600 text-white p-2 rounded-lg">
-              <i class="fas fa-car-side text-2xl"></i>
+    <header>
+      <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="flex justify-between h-20 items-center">
+            <div class="flex items-center space-x-2">
+              <div class="bg-blue-600 text-white p-2 rounded-lg">
+                <i class="fas fa-car-side text-2xl"></i>
+              </div>
+              <span
+                class="text-2xl font-black text-gray-800 tracking-tight uppercase"
+              >
+                <span class="">next</span>
+
+                <span class="text-blue-600">Drive</span></span
+              >
             </div>
-            <span
-              class="text-2xl font-black text-gray-800 tracking-tight uppercase"
-              >Константа<span class="text-blue-600">-ГС</span></span
-            >
-          </div>
-          <div class="hidden md:flex space-x-8 font-medium text-gray-600">
-            <a href="#" class="hover:text-blue-600 transition">Філії</a>
-            <a href="#" class="hover:text-blue-600 transition">Розклад</a>
-            <a href="#" class="hover:text-blue-600 transition">Ціни</a>
-            <a href="#" class="hover:text-blue-600 transition">Відгуки</a>
-          </div>
-          <div class="flex items-center space-x-4">
-            <a
-              href="tel:+380674677896"
-              class="hidden lg:block font-bold text-gray-800 hover:text-blue-600"
-            >
-              +38 (067) 467-78-96
-            </a>
-            <button
-              class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2.5 rounded-full font-bold transition shadow-lg shadow-blue-200"
-            >
-              Записатись
-            </button>
+            <div class="hidden md:flex space-x-8 font-medium text-gray-600">
+              <a href="#" class="hover:text-blue-600 transition">Ціни</a>
+              <a href="#" class="hover:text-blue-600 transition">Відгуки</a>
+              <a href="#" class="hover:text-blue-600 transition">Контакти</a>
+              <a href="#" class="hover:text-blue-600 transition">Про нас</a>
+            </div>
+            <div class="flex items-center space-x-4">
+              <div class="flex flex-col">
+                <a
+                  href="tel:+380674677896"
+                  class="lg:block lg:text-sm font-bold text-gray-800 hover:text-blue-600"
+                >
+                  +38 (098)567-11-33
+                </a>
+
+                <a
+                  href="tel:+380674677896"
+                  class="lg:block lg:text-sm font-bold text-gray-800 hover:text-blue-600"
+                >
+                  +38 (066)567-11-33
+                </a>
+              </div>
+
+              <a
+                target="_blank"
+                href="https://n1322448.alteg.io/company/1264986/personal/select-master?o="
+                class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2.5 rounded-full font-bold transition shadow-lg shadow-blue-200"
+              >
+                Записатись
+              </a>
+            </div>
           </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </header>
 
     <main class="relative overflow-hidden bg-white">
       <div
@@ -71,8 +97,8 @@
             <h1
               class="text-4xl md:text-6xl font-extrabold text-gray-900 leading-tight mb-6"
             >
-              Стань впевненим водієм у
-              <span class="text-blue-600 italic">Києві</span>
+              Стань впевненим водієм в
+              <span class="text-blue-600 italic">Ірпені</span>
             </h1>
 
             <p class="text-lg text-gray-600 mb-10 leading-relaxed max-w-xl">
@@ -83,7 +109,7 @@
             <div
               class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4"
             >
-              <button
+              <!-- <button
                 class="bg-blue-600 hover:bg-blue-700 text-white text-lg px-8 py-4 rounded-xl font-bold transition flex items-center justify-center group"
               >
                 Обрати філію
@@ -96,16 +122,18 @@
               >
                 <i class="fas fa-play-circle mr-2 text-blue-600"></i>
                 Перше заняття БЕЗКОШТОВНО
-              </button>
+              </button> -->
             </div>
 
             <div
               class="mt-12 grid grid-cols-3 gap-4 border-t border-gray-100 pt-8"
             >
-              <div>
-                <p class="text-2xl font-bold text-gray-900">12</p>
-                <p class="text-sm text-gray-500 font-medium">Філій у Києві</p>
-              </div>
+              <!-- <div>
+                <p class="text-2xl font-bold text-gray-900">Є</p>
+                <p class="text-sm text-gray-500 font-medium">
+                  Практика в місті
+                </p>
+              </div> -->
               <div>
                 <p class="text-2xl font-bold text-gray-900">15+</p>
                 <p class="text-sm text-gray-500 font-medium">Років досвіду</p>
@@ -129,13 +157,13 @@
                 <i
                   class="fas fa-car text-white text-9xl opacity-20 group-hover:scale-110 transition duration-700"
                 ></i>
-                <div class="absolute inset-0 flex items-center justify-center">
+                <!-- <div class="absolute inset-0 flex items-center justify-center">
                   <p
                     class="text-white font-medium bg-black/20 backdrop-blur-md px-6 py-2 rounded-full border border-white/30"
                   >
                     Навчальні авто: Kia, Hyundai, Ford
                   </p>
-                </div>
+                </div> -->
               </div>
             </div>
 
@@ -145,14 +173,14 @@
               <div
                 class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center text-green-600 text-xl"
               >
-                <i class="fas fa-subway"></i>
+                <i class="fa fa-tree" aria-hidden="true"></i>
               </div>
               <div>
                 <p class="font-bold text-gray-900 leading-tight">
-                  Поруч з метро
+                  Поруч з Центральним парком
                 </p>
                 <p class="text-xs text-gray-500 text-nowrap">
-                  КПІ, Позняки, Теремки та інші
+                  Старт навчальних маршрутів
                 </p>
               </div>
             </div>
@@ -185,15 +213,21 @@
         </div>
       </div>
     </div>
+
+    <!-- PRICE -->
     <section class="py-20 bg-gray-50">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-16">
           <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4">
-            Вартість навчання в
-            <span
-              class="text-blue-600 font-black tracking-tight uppercase italic"
-              >Константі</span
+            <span class=""> Вартість навчання в</span>
+            «
+            <span class="text-gray-900 font-black tracking-tight uppercase"
+              >Next</span
             >
+            <span class="text-blue-600 font-black tracking-tight uppercase"
+              >Drive</span
+            >
+            »
           </h2>
           <p class="text-gray-600 max-w-2xl mx-auto text-lg">
             Оберіть пакет, який підходить саме вам. У нас немає прихованих
@@ -202,7 +236,7 @@
           </p>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div
             class="bg-white rounded-3xl p-8 border border-gray-100 shadow-sm hover:shadow-xl transition-shadow flex flex-col"
           >
@@ -242,11 +276,11 @@
                 <i class="fas fa-times mr-3"></i> Практичне водіння
               </li>
             </ul>
-            <button
+            <!-- <button
               class="w-full py-4 border-2 border-blue-600 text-blue-600 font-bold rounded-xl hover:bg-blue-50 transition"
             >
               Обрати цей пакет
-            </button>
+            </button> -->
           </div>
 
           <div
@@ -261,7 +295,7 @@
               <h3
                 class="text-xl font-bold text-gray-900 mb-2 italic tracking-tight uppercase"
               >
-                Стандарт (B)
+                Стандарт
               </h3>
               <p class="text-gray-500 text-sm italic">
                 Оптимальний вибір для впевненого старту
@@ -294,14 +328,16 @@
                 (МКПП/АКПП)
               </li>
             </ul>
-            <button
+            <!-- <button
               class="w-full py-4 bg-blue-600 text-white font-black rounded-xl hover:bg-blue-700 transition shadow-lg shadow-blue-200 uppercase tracking-tight"
             >
               Записатися зараз
-            </button>
+            </button> -->
           </div>
 
-          <div
+          <!-- Premium BLOCK -->
+
+          <!-- <div
             class="bg-white rounded-3xl p-8 border border-gray-100 shadow-sm hover:shadow-xl transition-shadow flex flex-col"
           >
             <div class="mb-8">
@@ -337,20 +373,18 @@
                 <i class="fas fa-check text-green-500 mr-3"></i> Подача авто на
                 іспит у СЦ
               </li>
-              <li class="flex items-center text-gray-700">
-                <i class="fas fa-check text-green-500 mr-3"></i> Психологічна
-                підготовка
-              </li>
             </ul>
-            <button
+
+          </div> -->
+
+          <!-- <button
               class="w-full py-4 border-2 border-gray-800 text-gray-800 font-bold rounded-xl hover:bg-gray-800 hover:text-white transition"
             >
               Обрати Преміум
-            </button>
-          </div>
+            </button> -->
         </div>
 
-        <div
+        <!-- <div
           class="mt-12 bg-blue-50 border border-blue-100 rounded-2xl p-6 flex flex-col md:flex-row items-center justify-between"
         >
           <div class="flex items-center mb-4 md:mb-0">
@@ -369,144 +403,235 @@
             class="text-blue-600 font-black tracking-tight underline underline-offset-4 hover:text-blue-800 transition uppercase text-sm"
             >Дізнатися деталі розстрочки</a
           >
-        </div>
+        </div> -->
       </div>
     </section>
 
+    <!-- АВТОПАРК КАРУСЕЛЬ -->
     <section class="py-20 bg-white">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div>
+          <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4">
+            Наш
+            <span class="text-blue-600">Автопарк</span>
+          </h2>
+          <p class="text-gray-600 text-lg max-w-2xl">
+            Надійний транспорт, що пройшов повну технічну перевірку.
+          </p>
+        </div>
         <div class="lg:flex lg:items-center lg:space-x-16">
-          <div class="lg:w-1/2 mb-12 lg:mb-0">
-            <div
-              class="inline-block bg-blue-100 text-blue-700 px-4 py-1 rounded-lg text-sm font-black uppercase tracking-widest mb-6"
-            >
-              Найпопулярніший напрямок
-            </div>
-            <h2
-              class="text-4xl md:text-5xl font-extrabold text-gray-900 mb-8 leading-tight"
-            >
-              Навчання на категорію
-              <span class="text-blue-600 italic">"В"</span>
-            </h2>
-            <p class="text-gray-600 text-lg mb-8 leading-relaxed">
-              Категорія "В" дозволяє керувати легковими автомобілями, повна маса
-              яких не перевищує 3500 кг. У нашій школі ви можете обрати навчання
-              на механічній (МКПП) або автоматичній (АКПП) коробці передач.
-            </p>
-
-            <div class="space-y-4">
-              <div
-                class="flex items-center p-4 bg-gray-50 rounded-2xl border-l-4 border-blue-600 shadow-sm"
+          <div class="max-w-[1280px] mx-auto px-4 py-12">
+            <div class="relative group">
+              <button
+                id="prevBtn"
+                class="hidden md:flex absolute left-[-24px] top-1/2 -translate-y-1/2 z-10 bg-white p-4 rounded-full shadow-2xl hover:bg-slate-50 transition-all opacity-0 group-hover:opacity-100 border border-slate-100"
               >
-                <i class="fas fa-gas-pump text-blue-600 text-xl mr-4"></i>
-                <span class="font-bold text-gray-800"
-                  >Паливо та мастила вже у вартості</span
+                <svg
+                  class="w-6 h-6 text-slate-800"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
                 >
-              </div>
-              <div
-                class="flex items-center p-4 bg-gray-50 rounded-2xl border-l-4 border-blue-600 shadow-sm"
-              >
-                <i class="fas fa-id-card text-blue-600 text-xl mr-4"></i>
-                <span class="font-bold text-gray-800"
-                  >Повний супровід в ТСЦ МВС (МРЕВ)</span
-                >
-              </div>
-            </div>
-          </div>
-
-          <div
-            class="lg:w-1/2 bg-gray-900 rounded-[2.5rem] p-8 lg:p-10 shadow-2xl relative"
-          >
-            <div
-              class="absolute -top-6 -right-6 bg-blue-600 text-white w-20 h-20 rounded-2xl flex items-center justify-center rotate-12 shadow-xl"
-            >
-              <i class="fas fa-star text-3xl"></i>
-            </div>
-
-            <h3 class="text-2xl font-bold text-white mb-8 flex items-center">
-              <i class="fas fa-list-ul mr-3 text-blue-500"></i>
-              Пакети практики (Кат. В)
-            </h3>
-
-            <div class="space-y-6">
-              <div
-                class="flex justify-between items-center p-4 bg-white/5 rounded-2xl hover:bg-white/10 transition border border-white/10"
-              >
-                <div>
-                  <p class="text-white font-bold text-lg">Пакет "Експрес"</p>
-                  <p class="text-blue-400 text-sm">20 годин водіння</p>
-                </div>
-                <div class="text-right">
-                  <p class="text-2xl font-black text-white italic">
-                    12 500<span class="text-xs ml-1 uppercase">грн</span>
-                  </p>
-                </div>
-              </div>
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M15 19l-7-7 7-7"
+                  ></path>
+                </svg>
+              </button>
 
               <div
-                class="flex justify-between items-center p-5 bg-blue-600/20 rounded-2xl border-2 border-blue-600 relative overflow-hidden"
+                id="carousel"
+                class="flex gap-6 overflow-x-auto snap-x snap-mandatory scroll-smooth scrollbar-hide pb-8"
               >
-                <div
-                  class="absolute top-0 right-0 bg-blue-600 text-[10px] font-black px-3 py-1 uppercase rounded-bl-lg text-white"
-                >
-                  Рекомендовано
-                </div>
-                <div>
-                  <p class="text-white font-bold text-xl leading-tight">
-                    Пакет "Стандарт"
-                  </p>
-                  <p class="text-blue-300 text-sm font-medium">
-                    40 годин водіння (Повний курс)
-                  </p>
-                </div>
-                <div class="text-right">
-                  <p
-                    class="text-3xl font-black text-white italic tracking-tight"
+                <div class="snap-center shrink-0 w-full md:w-[628px]">
+                  <div class="mb-6">
+                    <div class="flex items-center justify-between mb-3">
+                      <h3 class="text-2xl font-bold text-gray-900">
+                        Ford Fusion
+                      </h3>
+                      <span
+                        class="px-3 py-1 bg-blue-100 text-blue-700 text-xs font-bold rounded-full uppercase"
+                        >МКПП</span
+                      >
+                    </div>
+                    <div class="flex flex-wrap gap-3">
+                      <span
+                        class="flex items-center text-sm text-gray-600 bg-gray-100 px-3 py-1.5 rounded-lg"
+                        ><i class="fas fa-gas-pump mr-2 text-blue-500"></i>
+                        Бензин</span
+                      >
+                      <span
+                        class="flex items-center text-sm text-gray-600 bg-gray-100 px-3 py-1.5 rounded-lg"
+                        ><i class="fas fa-microchip mr-2 text-blue-500"></i> 1.4
+                        L</span
+                      >
+                      <!-- <span
+                        class="flex items-center text-sm text-gray-600 bg-gray-100 px-3 py-1.5 rounded-lg"
+                        ><i class="fas fa-check-circle mr-2 text-blue-500"></i>
+                        Маневрене</span
+                      > -->
+                    </div>
+                  </div>
+                  <div
+                    class="aspect-video rounded-3xl overflow-hidden bg-slate-100 shadow-lg border border-slate-200"
                   >
-                    16 500<span class="text-xs ml-1 uppercase">грн</span>
-                  </p>
+                    <img
+                      src="./assets/images/Ford-Fusion-2007-black.png"
+                      class="w-full h-full object-cover"
+                      alt="Ford Fusion 2007 Black"
+                    />
+                  </div>
+                </div>
+
+                <div class="snap-center shrink-0 w-full md:w-[628px]">
+                  <div class="mb-6">
+                    <div class="flex items-center justify-between mb-3">
+                      <h3 class="text-2xl font-bold text-gray-900">
+                        Skoda Octavia A5
+                      </h3>
+                      <span
+                        class="px-3 py-1 bg-blue-100 text-blue-700 text-xs font-bold rounded-full uppercase"
+                        >МКПП</span
+                      >
+                    </div>
+                    <div class="flex flex-wrap gap-3">
+                      <span
+                        class="flex items-center text-sm text-gray-600 bg-gray-100 px-3 py-1.5 rounded-lg"
+                        ><i class="fas fa-gas-pump mr-2 text-blue-500"></i>
+                        Газ/Бензин</span
+                      >
+                      <span
+                        class="flex items-center text-sm text-gray-600 bg-gray-100 px-3 py-1.5 rounded-lg"
+                        ><i class="fas fa-microchip mr-2 text-blue-500"></i> 1.6
+                        MPI</span
+                      >
+                      <span
+                        class="flex items-center text-sm text-gray-600 bg-gray-100 px-3 py-1.5 rounded-lg"
+                        ><i class="fas fa-shield-alt mr-2 text-blue-500"></i>
+                        Плавний хід</span
+                      >
+                    </div>
+                  </div>
+
+                  <div
+                    class="aspect-video rounded-3xl overflow-hidden bg-slate-100 shadow-lg border border-slate-200"
+                  >
+                    <img
+                      src="./assets/images/Skoda-octavia-a5-2007-beje.png"
+                      class="w-full h-full object-cover"
+                      alt="Product 4"
+                    />
+                  </div>
+                </div>
+
+                <div class="snap-center shrink-0 w-full md:w-[628px]">
+                  <div class="mb-6">
+                    <div class="flex items-center justify-between mb-3">
+                      <h3 class="text-2xl font-bold text-gray-900">
+                        VW Golf Plus
+                      </h3>
+                      <span
+                        class="px-3 py-1 bg-blue-100 text-blue-700 text-xs font-bold rounded-full uppercase"
+                        >МКПП</span
+                      >
+                    </div>
+                    <div class="flex flex-wrap gap-3">
+                      <span
+                        class="flex items-center text-sm text-gray-600 bg-gray-100 px-3 py-1.5 rounded-lg"
+                        ><i class="fas fa-gas-pump mr-2 text-blue-500"></i>
+                        Бензин</span
+                      >
+                      <span
+                        class="flex items-center text-sm text-gray-600 bg-gray-100 px-3 py-1.5 rounded-lg"
+                        ><i class="fas fa-eye mr-2 text-blue-500"></i> 1.6
+                        L</span
+                      >
+                      <span
+                        class="flex items-center text-sm text-gray-600 bg-gray-100 px-3 py-1.5 rounded-lg"
+                        ><i class="fas fa-arrows-alt mr-2 text-blue-500"></i>
+                        Оглядовість</span
+                      >
+                    </div>
+                  </div>
+                  <div
+                    class="aspect-video rounded-3xl overflow-hidden bg-slate-100 shadow-lg border border-slate-200"
+                  >
+                    <img
+                      src="./assets/images/golf-plus.png"
+                      class="w-full h-full object-cover"
+                      alt="Volkswagen Golf Plus 2007"
+                    />
+                  </div>
+                </div>
+
+                <div class="snap-center shrink-0 w-full md:w-[628px]">
+                  <div class="mb-6">
+                    <div class="flex items-center justify-between mb-3">
+                      <h3 class="text-2xl font-bold text-gray-900">
+                        Ford Fusion
+                      </h3>
+                      <span
+                        class="px-3 py-1 bg-blue-100 text-blue-700 text-xs font-bold rounded-full uppercase"
+                        >МКПП</span
+                      >
+                    </div>
+                    <div class="flex flex-wrap gap-3">
+                      <span
+                        class="flex items-center text-sm text-gray-600 bg-gray-100 px-3 py-1.5 rounded-lg"
+                        ><i class="fas fa-gas-pump mr-2 text-blue-500"></i>
+                        Бензин</span
+                      >
+                      <span
+                        class="flex items-center text-sm text-gray-600 bg-gray-100 px-3 py-1.5 rounded-lg"
+                        ><i class="fas fa-microchip mr-2 text-blue-500"></i> 1.4
+                        L</span
+                      >
+                      <span
+                        class="flex items-center text-sm text-gray-600 bg-gray-100 px-3 py-1.5 rounded-lg"
+                        ><i class="fas fa-thumbs-up mr-2 text-blue-500"></i>
+                        Легкий запуск</span
+                      >
+                    </div>
+                  </div>
+                  <div
+                    class="aspect-video rounded-3xl overflow-hidden bg-slate-100 shadow-lg border border-slate-200"
+                  >
+                    <img
+                      src="./assets/images/Ford-Fusion-2007-blue.png"
+                      class="w-full h-full object-cover"
+                      alt="Ford Fusion 2007 Blue"
+                    />
+                  </div>
                 </div>
               </div>
 
-              <div
-                class="flex justify-between items-center p-4 bg-white/5 rounded-2xl hover:bg-white/10 transition border border-white/10"
+              <button
+                id="nextBtn"
+                class="hidden md:flex absolute right-[-24px] top-1/2 -translate-y-1/2 z-10 bg-white p-4 rounded-full shadow-2xl hover:bg-slate-50 transition-all opacity-0 group-hover:opacity-100 border border-slate-100"
               >
-                <div>
-                  <p class="text-white font-bold text-lg">Пакет "Профі"</p>
-                  <p class="text-blue-400 text-sm">60 годин водіння</p>
-                </div>
-                <div class="text-right">
-                  <p class="text-2xl font-black text-white italic">
-                    21 000<span class="text-xs ml-1 uppercase">грн</span>
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="mt-10 text-center">
-              <p
-                class="text-gray-400 text-xs mb-6 uppercase tracking-[0.2em] font-bold"
-              >
-                Оберіть свій тип трансмісії
-              </p>
-              <div class="flex justify-center space-x-4">
-                <div
-                  class="bg-white/10 px-6 py-3 rounded-xl border border-white/20 text-white font-bold text-sm"
+                <svg
+                  class="w-6 h-6 text-slate-800"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
                 >
-                  <i class="fas fa-cogs mr-2 text-blue-500"></i> МКПП
-                </div>
-                <div
-                  class="bg-white/10 px-6 py-3 rounded-xl border border-white/20 text-white font-bold text-sm"
-                >
-                  <i class="fas fa-bolt mr-2 text-yellow-400"></i> АКПП
-                </div>
-              </div>
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 5l7 7-7 7"
+                  ></path>
+                </svg>
+              </button>
             </div>
           </div>
         </div>
       </div>
     </section>
 
+    <!-- Time -->
     <section class="py-16 bg-white">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div
@@ -563,16 +688,16 @@
                 <i class="fas fa-calendar-days mr-3 text-blue-500 w-5"></i> Пн,
                 Ср, Пт
               </li>
-              <li class="flex items-center">
+              <!-- <li class="flex items-center">
                 <i class="fas fa-map-marker-alt mr-3 text-blue-500 w-5"></i>
                 Філія: КПІ / Борщагівка
-              </li>
+              </li> -->
             </ul>
-            <button
+            <!-- <button
               class="w-full py-3 bg-white border-2 border-blue-600 text-blue-600 font-bold rounded-xl hover:bg-blue-600 hover:text-white transition"
             >
               Записатись у групу
-            </button>
+            </button> -->
           </div>
 
           <div
@@ -605,16 +730,16 @@
                 <i class="fas fa-calendar-days mr-3 text-blue-500 w-5"></i> Вт,
                 Чт
               </li>
-              <li class="flex items-center">
+              <!-- <li class="flex items-center">
                 <i class="fas fa-map-marker-alt mr-3 text-blue-500 w-5"></i> Усі
                 філії міста
-              </li>
+              </li> -->
             </ul>
-            <button
+            <!-- <button
               class="w-full py-3 bg-blue-600 text-white font-bold rounded-xl hover:bg-blue-700 transition shadow-lg shadow-blue-200"
             >
               Записатись у групу
-            </button>
+            </button> -->
           </div>
 
           <div
@@ -647,22 +772,23 @@
                 <i class="fas fa-calendar-days mr-3 text-blue-500 w-5"></i>
                 Субота, Неділя
               </li>
-              <li class="flex items-center">
+              <!-- <li class="flex items-center">
                 <i class="fas fa-map-marker-alt mr-3 text-blue-500 w-5"></i>
                 Філія: Позняки / Теремки
-              </li>
+              </li> -->
             </ul>
-            <button
+            <!-- <button
               class="w-full py-3 bg-white border-2 border-blue-600 text-blue-600 font-bold rounded-xl hover:bg-blue-600 hover:text-white transition"
             >
               Записатись у групу
-            </button>
+            </button> -->
           </div>
         </div>
       </div>
     </section>
 
-    <section class="py-20 bg-white">
+    <!-- REVIEW -->
+    <!-- <section class="py-20 bg-white">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div
           class="flex flex-col md:flex-row justify-between items-end mb-12 gap-6"
@@ -679,20 +805,6 @@
               Ми пишаємося кожним отриманим посвідченням водія. Ось лише кілька
               історій успіху наших учнів.
             </p>
-          </div>
-          <div
-            class="flex items-center space-x-2 bg-yellow-50 px-4 py-2 rounded-xl border border-yellow-100"
-          >
-            <div class="flex text-yellow-400">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </div>
-            <span class="font-bold text-gray-800 tracking-tight"
-              >4.9/5 на Otzovik</span
-            >
           </div>
         </div>
 
@@ -823,21 +935,209 @@
             </div>
           </div>
         </div>
+      </div>
+    </section> -->
 
-        <div class="mt-12 text-center">
-          <a
-            href="#"
-            class="inline-flex items-center font-bold text-blue-600 hover:text-blue-700 transition space-x-2 group"
-          >
-            <span>Переглянути всі 150+ відгуків</span>
-            <i
-              class="fas fa-external-link-alt text-sm group-hover:translate-x-1 transition-transform"
-            ></i>
-          </a>
+    <!--  NEW REVIEW CAROUSEL  -->
+    <section class="py-20 bg-white overflow-hidden">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div
+          class="flex flex-col md:flex-row justify-between items-end mb-12 gap-6"
+        >
+          <div class="max-w-2xl">
+            <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4">
+              Що про нас кажуть
+              <span
+                class="text-blue-600 underline decoration-blue-200 underline-offset-8"
+                >випускники</span
+              >
+            </h2>
+            <p class="text-gray-600 text-lg">
+              Ми пишаємося кожним отриманим посвідченням водія. Ось лише кілька
+              історій успіху наших учнів.
+            </p>
+          </div>
+
+          <div class="hidden md:flex space-x-4">
+            <button
+              id="prevReview"
+              class="p-4 rounded-full border border-gray-200 text-blue-600 hover:bg-blue-50 transition-colors shadow-sm"
+            >
+              <svg
+                class="w-6 h-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M15 19l-7-7 7-7"
+                ></path>
+              </svg>
+            </button>
+            <button
+              id="nextReview"
+              class="p-4 rounded-full border border-gray-200 text-blue-600 hover:bg-blue-50 transition-colors shadow-sm"
+            >
+              <svg
+                class="w-6 h-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 5l7 7-7 7"
+                ></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div
+          id="reviewsCarousel"
+          class="flex gap-8 overflow-x-auto snap-x snap-mandatory scroll-smooth scrollbar-hide pb-10"
+        >
+          <div class="snap-center shrink-0 w-full md:w-[calc(50%-16px)]">
+            <div
+              class="bg-gray-50 p-8 rounded-3xl border border-gray-100 relative group h-full hover:bg-white hover:shadow-xl hover:shadow-blue-100 transition duration-300"
+            >
+              <div
+                class="absolute -top-4 -right-4 bg-white w-12 h-12 rounded-full shadow-md flex items-center justify-center text-blue-600 text-xl"
+              >
+                <i class="fas fa-quote-right"></i>
+              </div>
+              <div class="flex items-center space-x-4 mb-6">
+                <div
+                  class="w-14 h-14 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 font-bold text-xl"
+                >
+                  І
+                </div>
+                <div>
+                  <h4 class="font-bold text-gray-900">Ірина</h4>
+                  <p
+                    class="text-xs text-gray-500 font-medium tracking-wide uppercase"
+                  >
+                    Випускниця (Філія КПІ)
+                  </p>
+                </div>
+              </div>
+              <p class="text-gray-700 leading-relaxed italic">
+                "Автошкіл у Києві багато, вибір був важкий. В «Константі» мені
+                сподобалося — ніхто грошей не витягував, на іспитах не
+                завалював. Викладачі спокійні, величезне дякую за терпіння!"
+              </p>
+              <div
+                class="mt-6 pt-6 border-t border-gray-200 flex justify-between items-center"
+              >
+                <span class="text-[10px] font-bold text-blue-500 uppercase"
+                  >Джерело: otzovik.com</span
+                >
+                <div class="flex text-yellow-400 text-xs">
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="snap-center shrink-0 w-full md:w-[calc(50%-16px)]">
+            <div
+              class="bg-gray-50 p-8 rounded-3xl border border-gray-100 relative group h-full hover:bg-white hover:shadow-xl hover:shadow-blue-100 transition duration-300"
+            >
+              <div
+                class="absolute -top-4 -right-4 bg-white w-12 h-12 rounded-full shadow-md flex items-center justify-center text-blue-600 text-xl"
+              >
+                <i class="fas fa-quote-right"></i>
+              </div>
+              <div class="flex items-center space-x-4 mb-6">
+                <div
+                  class="w-14 h-14 bg-green-100 rounded-full flex items-center justify-center text-green-600 font-bold text-xl"
+                >
+                  А
+                </div>
+                <div>
+                  <h4 class="font-bold text-gray-900">Андрій</h4>
+                  <p
+                    class="text-xs text-gray-500 font-medium tracking-wide uppercase"
+                  >
+                    Випускник (Борщагівка)
+                  </p>
+                </div>
+              </div>
+              <p class="text-gray-700 leading-relaxed italic">
+                "Це гідна школа, де працюють професіонали. Навчився всьому, що
+                потрібно водію. Багато практики — саме завдяки їй з'являється
+                впевненість на дорозі. Рекомендую!"
+              </p>
+              <div
+                class="mt-6 pt-6 border-t border-gray-200 flex justify-between items-center"
+              >
+                <span class="text-[10px] font-bold text-blue-500 uppercase"
+                  >Джерело: Google Maps</span
+                >
+                <div class="flex text-yellow-400 text-xs">
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="snap-center shrink-0 w-full md:w-[calc(50%-16px)]">
+            <div
+              class="bg-gray-50 p-8 rounded-3xl border border-gray-100 relative group h-full hover:bg-white hover:shadow-xl hover:shadow-blue-100 transition duration-300"
+            >
+              <div
+                class="absolute -top-4 -right-4 bg-white w-12 h-12 rounded-full shadow-md flex items-center justify-center text-blue-600 text-xl"
+              >
+                <i class="fas fa-quote-right"></i>
+              </div>
+              <div class="flex items-center space-x-4 mb-6">
+                <div
+                  class="w-14 h-14 bg-purple-100 rounded-full flex items-center justify-center text-purple-600 font-bold text-xl"
+                >
+                  І
+                </div>
+                <div>
+                  <h4 class="font-bold text-gray-900">Ігор</h4>
+                  <p
+                    class="text-xs text-gray-500 font-medium tracking-wide uppercase"
+                  >
+                    Випускник (Позняки)
+                  </p>
+                </div>
+              </div>
+              <p class="text-gray-700 leading-relaxed italic">
+                "Дякую інструктору Миколі. Це фахівець від Бога! По-справжньому
+                навчить їздити та все пояснить на пальцях. Хто не їздив з
+                Миколою — той не їздив взагалі."
+              </p>
+              <div
+                class="mt-6 pt-6 border-t border-gray-200 flex justify-between items-center"
+              >
+                <span class="text-[10px] font-bold text-blue-500 uppercase"
+                  >Джерело: otzovik.com</span
+                >
+                <div class="flex text-yellow-400 text-xs">
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
+    <!-- QA -->
     <section class="py-20 bg-gray-50">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-16">
@@ -993,7 +1293,7 @@
             >
               <li class="flex items-start">
                 <i class="fas fa-minus text-red-500 mt-1.5 mr-3 text-xs"></i>
-                Медичний огляд (можна пройти в школі)
+                Медичний огляд
               </li>
               <li class="flex items-start">
                 <i class="fas fa-minus text-red-500 mt-1.5 mr-3 text-xs"></i>
@@ -1023,8 +1323,8 @@
           <h2
             class="text-3xl md:text-5xl font-black text-gray-900 mb-6 uppercase tracking-tighter"
           >
-            Чому <span class="text-blue-600">кожен</span> обирає автошколу
-            «Константа ГС»?
+            Чому <span class="text-blue-600">кожен</span> обирає автошколу «
+            NEXT <span class="text-blue-600">DRIVE</span> »?
           </h2>
           <div class="w-32 h-2 bg-blue-600 mx-auto rounded-full mb-6"></div>
           <p class="text-xl text-gray-600 max-w-3xl mx-auto font-medium">
@@ -1293,9 +1593,7 @@
 
     <footer class="bg-gray-900 text-gray-300 pt-16 pb-8">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div
-          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12"
-        >
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-24 mb-12">
           <div class="col-span-1 lg:col-span-1">
             <div class="flex items-center space-x-2 mb-6">
               <div class="bg-blue-600 text-white p-1.5 rounded-lg">
@@ -1303,7 +1601,8 @@
               </div>
               <span
                 class="text-xl font-black text-white tracking-tight uppercase"
-                >Константа<span class="text-blue-500">-ГС</span></span
+              >
+                NEXT<span class="text-blue-500"> DRIVE</span></span
               >
             </div>
             <p class="text-gray-400 text-sm leading-relaxed mb-6">
@@ -1336,94 +1635,34 @@
             <h4
               class="text-white font-bold mb-6 uppercase text-sm tracking-widest"
             >
-              Навчання
-            </h4>
-            <ul class="space-y-4 text-sm">
-              <li>
-                <a href="#" class="hover:text-blue-500 transition"
-                  >Категорія B</a
-                >
-              </li>
-              <li>
-                <a href="#" class="hover:text-blue-500 transition"
-                  >Відновлення навичок</a
-                >
-              </li>
-              <li>
-                <a href="#" class="hover:text-blue-500 transition"
-                  >Теоретичний курс</a
-                >
-              </li>
-              <li>
-                <a href="#" class="hover:text-blue-500 transition"
-                  >Уроки водіння</a
-                >
-              </li>
-              <li>
-                <a href="#" class="hover:text-blue-500 transition"
-                  >Корпоративне навчання</a
-                >
-              </li>
-            </ul>
-          </div>
-
-          <div>
-            <h4
-              class="text-white font-bold mb-6 uppercase text-sm tracking-widest"
-            >
-              Філії
-            </h4>
-            <ul class="space-y-4 text-sm font-medium">
-              <li class="flex items-center space-x-2">
-                <span class="w-1.5 h-1.5 rounded-full bg-blue-600"></span>
-                <a href="#" class="hover:text-white transition"
-                  >м. Політех (КПІ)</a
-                >
-              </li>
-              <li class="flex items-center space-x-2">
-                <span class="w-1.5 h-1.5 rounded-full bg-blue-600"></span>
-                <a href="#" class="hover:text-white transition">м. Позняки</a>
-              </li>
-              <li class="flex items-center space-x-2">
-                <span class="w-1.5 h-1.5 rounded-full bg-blue-600"></span>
-                <a href="#" class="hover:text-white transition">Борщагівка</a>
-              </li>
-              <li class="flex items-center space-x-2">
-                <span class="w-1.5 h-1.5 rounded-full bg-blue-600"></span>
-                <a href="#" class="hover:text-white transition">м. Теремки</a>
-              </li>
-              <li class="flex items-center space-x-2">
-                <span class="w-1.5 h-1.5 rounded-full bg-blue-600"></span>
-                <a href="#" class="hover:text-white transition">Виноградар</a>
-              </li>
-            </ul>
-          </div>
-
-          <div>
-            <h4
-              class="text-white font-bold mb-6 uppercase text-sm tracking-widest"
-            >
               Контакти
             </h4>
             <div class="space-y-4 text-sm">
               <div class="flex items-start space-x-3">
                 <i class="fas fa-phone-alt mt-1 text-blue-500"></i>
                 <div>
-                  <p class="text-white font-bold">+38 (067) 467-78-96</p>
-                  <p class="text-xs text-gray-500">Багатоканальний номер</p>
+                  <p class="text-white font-bold">+38 (098)567-11-33</p>
+                  <p class="text-xs text-gray-500">Контакт-центр</p>
+                </div>
+              </div>
+
+              <div class="flex items-start space-x-3">
+                <i class="fas fa-phone-alt mt-1 text-blue-500"></i>
+                <div>
+                  <p class="text-white font-bold">+38 (066)567-11-33</p>
+                  <p class="text-xs text-gray-500">Контакт-центр</p>
                 </div>
               </div>
               <div class="flex items-start space-x-3">
                 <i class="fas fa-envelope mt-1 text-blue-500"></i>
-                <p>info@avtoconst.com.ua</p>
+                <p>nextdrive@gmail.com</p>
               </div>
               <div class="flex items-start space-x-3">
                 <i class="fas fa-map-marker-alt mt-1 text-blue-500"></i>
                 <p>
-                  м. Київ, просп. Л. Курбаса, 2Б<br /><span
+                  м. Ірпінь, Центральний парк <br /><span
                     class="text-xs text-gray-500"
-                    >1 поверх, офіс 106</span
-                  >
+                  ></span>
                 </p>
               </div>
             </div>
@@ -1433,15 +1672,13 @@
         <div
           class="border-t border-gray-800 pt-8 mt-8 flex flex-col md:row justify-between items-center text-xs text-gray-500"
         >
-          <p>© 2026 Автошкола "Константа-ГС". Всі права захищені.</p>
-          <div class="flex space-x-6 mt-4 md:mt-0">
-            <a href="#" class="hover:text-white transition"
-              >Політика конфіденційності</a
-            >
-            <a href="#" class="hover:text-white transition">Договір оферти</a>
-          </div>
+          <p>© 2026 Автошкола "NEXT DRIVE"</p>
+          <div class="flex space-x-6 mt-4 md:mt-0"></div>
         </div>
       </div>
     </footer>
+
+    <script src="./carousel.js"></script>
+    <script src="./carousel-review.js"></script>
   </body>
 </html>
