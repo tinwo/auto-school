@@ -1,22 +1,3 @@
-// const carousel = document.getElementById('carousel');
-// const nextBtn = document.getElementById('nextBtn');
-// const prevBtn = document.getElementById('prevBtn');
-
-// // Динамічне обчислення кроку (ширина елемента + gap)
-// const getScrollAmount = () => {
-//   const item = carousel.firstElementChild;
-//   const gap = parseInt(window.getComputedStyle(carousel).gap) || 0;
-//   return item.clientWidth + gap;
-// };
-
-// nextBtn.onclick = () => {
-//   carousel.scrollBy({ left: getScrollAmount(), behavior: 'smooth' });
-// };
-
-// prevBtn.onclick = () => {
-//   carousel.scrollBy({ left: -getScrollAmount(), behavior: 'smooth' });
-// };
-
 const carousel = document.getElementById('carousel');
 const nextBtn = document.getElementById('nextBtn');
 const prevBtn = document.getElementById('prevBtn');
