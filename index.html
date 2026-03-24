@@ -12,7 +12,8 @@
   </head>
   <body class="bg-gray-50 font-sans">
     <header class="sticky top-0 z-50">
-      <nav class="bg-white shadow-sm">
+      <!-- old -->
+      <!-- <nav class="bg-white shadow-sm">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div class="flex justify-between h-20 items-center">
             <a
@@ -84,7 +85,194 @@
             </div>
           </div>
         </div>
+      </nav> -->
+
+      <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="flex justify-between h-20 items-center">
+            <a
+              href="#"
+              class="flex items-center space-x-3 group transition-transform duration-300 active:scale-95 shrink-0"
+            >
+              <div
+                class="bg-blue-600 text-white p-2.5 rounded-xl shadow-lg shadow-blue-200 group-hover:bg-blue-700 transition-colors"
+              >
+                <i class="fas fa-car-side text-2xl"></i>
+              </div>
+              <div class="flex flex-col justify-center">
+                <span
+                  class="text-2xl font-black text-gray-900 tracking-tighter uppercase leading-none"
+                >
+                  NEXT<span class="text-blue-600">DRIVE</span>
+                </span>
+                <span
+                  class="text-[10px] font-bold text-gray-400 uppercase tracking-[0.2em] leading-none mt-1"
+                >
+                  Автошкола Ірпінь
+                </span>
+              </div>
+            </a>
+
+            <div
+              class="hidden xl:flex space-x-8 font-bold text-sm text-gray-600 uppercase tracking-wide"
+            >
+              <a href="#autopark" class="hover:text-blue-600 transition-colors"
+                >Автопарк</a
+              >
+              <a href="#price" class="hover:text-blue-600 transition-colors"
+                >Ціни</a
+              >
+              <a href="#reviews" class="hover:text-blue-600 transition-colors"
+                >Відгуки</a
+              >
+              <a href="#qa" class="hover:text-blue-600 transition-colors"
+                >Q&A</a
+              >
+              <a href="#about" class="hover:text-blue-600 transition-colors"
+                >Про нас</a
+              >
+            </div>
+
+            <div class="hidden md:flex items-center space-x-6">
+              <div class="flex flex-col border-l border-gray-100 pl-6">
+                <a
+                  href="tel:+380985671133"
+                  class="flex items-center space-x-2 group"
+                >
+                  <span
+                    class="w-2 h-2 rounded-full bg-blue-500 group-hover:animate-pulse"
+                  ></span>
+                  <span
+                    class="text-[13px] font-black text-gray-800 group-hover:text-blue-600 transition-colors"
+                  >
+                    (098) 567-11-33
+                  </span>
+                </a>
+                <a
+                  href="tel:+380665671133"
+                  class="flex items-center space-x-2 group mt-1"
+                >
+                  <span
+                    class="w-2 h-2 rounded-full bg-red-500 group-hover:animate-pulse"
+                  ></span>
+                  <span
+                    class="text-[13px] font-black text-gray-800 group-hover:text-blue-600 transition-colors"
+                  >
+                    (066) 567-11-33
+                  </span>
+                </a>
+              </div>
+
+              <a
+                target="_blank"
+                href="https://n1322448.alteg.io/company/1264986/personal/select-master?o="
+                class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-xl font-black text-sm uppercase tracking-wider transition-all shadow-xl shadow-blue-200 active:scale-95"
+              >
+                Записатись
+              </a>
+            </div>
+
+            <div class="flex md:hidden">
+              <button
+                id="mobile-menu-btn"
+                class="text-gray-900 focus:outline-none p-2 bg-gray-50 rounded-lg"
+              >
+                <i id="menu-icon" class="fas fa-bars text-2xl"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div
+          id="mobile-menu"
+          class="hidden md:hidden bg-white border-t border-gray-100 absolute w-full left-0 shadow-2xl z-40"
+        >
+          <div class="px-6 py-8 space-y-4">
+            <div class="grid grid-cols-2 gap-4 mb-6">
+              <a
+                href="#autopark"
+                class="mobile-link bg-gray-50 p-4 rounded-xl font-bold text-center text-gray-700"
+                >Автопарк</a
+              >
+              <a
+                href="#price"
+                class="mobile-link bg-gray-50 p-4 rounded-xl font-bold text-center text-gray-700"
+                >Ціни</a
+              >
+            </div>
+
+            <a
+              href="#reviews"
+              class="mobile-link block py-3 border-b border-gray-50 font-bold text-gray-800 text-lg text-center"
+              >Відгуки</a
+            >
+            <a
+              href="#about"
+              class="mobile-link block py-3 border-b border-gray-50 font-bold text-gray-800 text-lg text-center"
+              >Про нас</a
+            >
+
+            <div class="pt-6 space-y-3">
+              <a
+                href="tel:+380985671133"
+                class="flex items-center justify-center space-x-3 p-4 border-2 border-blue-500 rounded-2xl"
+              >
+                <i class="fas fa-phone-alt text-blue-600"></i>
+                <span class="font-black text-gray-900">(098) 567-11-33</span>
+              </a>
+              <a
+                href="tel:+380665671133"
+                class="flex items-center justify-center space-x-3 p-4 border-2 border-red-500 rounded-2xl"
+              >
+                <i class="fas fa-phone-alt text-red-500"></i>
+                <span class="font-black text-gray-900">(066) 567-11-33</span>
+              </a>
+              <a
+                target="_blank"
+                href="https://n1322448.alteg.io/..."
+                class="block w-full text-center bg-blue-600 text-white py-5 rounded-2xl font-black shadow-lg"
+              >
+                ЗАПИСАТИСЬ ОНЛАЙН
+              </a>
+            </div>
+
+            <div class="flex justify-center space-x-6 pt-6">
+              <a href="#" class="text-gray-400 text-2xl"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" class="text-gray-400 text-2xl"
+                ><i class="fab fa-tiktok"></i
+              ></a>
+              <a href="#" class="text-gray-400 text-2xl"
+                ><i class="fab fa-youtube"></i
+              ></a>
+            </div>
+          </div>
+        </div>
       </nav>
+
+      <script>
+        const menuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const menuIcon = document.getElementById('menu-icon');
+        const links = document.querySelectorAll('.mobile-link');
+
+        // Відкрити/Закрити
+        menuBtn.addEventListener('click', () => {
+          mobileMenu.classList.toggle('hidden');
+          menuIcon.classList.toggle('fa-bars');
+          menuIcon.classList.toggle('fa-times'); // Зміна на хрестик
+        });
+
+        // Закрити при кліку на посилання
+        links.forEach((link) => {
+          link.addEventListener('click', () => {
+            mobileMenu.classList.add('hidden');
+            menuIcon.classList.add('fa-bars');
+            menuIcon.classList.remove('fa-times');
+          });
+        });
+      </script>
     </header>
 
     <main class="relative overflow-hidden bg-white">
@@ -2125,7 +2313,7 @@
                 <h3
                   class="text-2xl font-black text-gray-900 mb-2 uppercase tracking-tight"
                 >
-                  Оберіть зручний спосіб зв'язку
+                  Чекаємо на вас біля Центрального парку
                 </h3>
                 <!-- <p class="text-gray-500">Відповідаємо миттєво у месенджерах</p> -->
               </div>
@@ -2189,25 +2377,32 @@
               </div>
             </div>
             <p class="text-gray-400 text-sm leading-relaxed mb-6">
-              Понад 15 років досвіду підготовки водіїв у Києві. Ми не просто
-              вчимо правилам, ми вчимо впевненості на дорозі.
+              Понад 15 років досвіду підготовки водіїв у Києві.
+              <br />
+              Ми не просто вчимо правилам, ми вчимо впевненості на дорозі.
             </p>
+
             <div class="flex space-x-4">
               <a
                 href="#"
-                class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-600 transition text-white"
+                class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-black hover:ring-2 hover:ring-cyan-400 transition text-white"
+                title="TikTok"
               >
-                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-tiktok"></i>
               </a>
+
               <a
                 href="#"
-                class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-pink-600 transition text-white"
+                class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-gradient-to-tr hover:from-yellow-500 hover:to-purple-600 transition text-white"
+                title="Instagram"
               >
                 <i class="fab fa-instagram"></i>
               </a>
+
               <a
                 href="#"
                 class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-red-600 transition text-white"
+                title="YouTube"
               >
                 <i class="fab fa-youtube"></i>
               </a>
@@ -2263,5 +2458,6 @@
 
     <script src="./carousel.js"></script>
     <script src="./carousel-review.js"></script>
+    <script src="./burger-menu.js"></script>
   </body>
 </html>
