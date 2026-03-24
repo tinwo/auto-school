@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="uk" class="scroll-smooth scroll-pt-20">
+<html lang="uk" class="scroll-smooth scroll-pt-20 font-sans">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,6 +10,26 @@
     />
     <title>Автошкола Next Drive Ірпінь | Навчання водінню з нуля</title>
     <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              fugaz: ["'Fugaz One'", 'cursive'],
+              sans: ["'Inter'", 'system-ui', 'sans-serif'],
+            },
+          },
+        },
+      };
+    </script>
     <meta
       name="description"
       content="Автошкола Next Drive в Ірпені. Професійне навчання водінню з досвідченими інструкторами. Сучасний автопарк, гнучкий графік та індивідуальний підхід. Записуйтесь на перше заняття!"
@@ -104,7 +124,7 @@
               >
                 <i aria-hidden="true" class="fas fa-car-side text-2xl"></i>
               </div>
-              <div class="flex flex-col justify-center">
+              <div class="flex flex-col justify-center font-sans">
                 <span
                   class="text-2xl font-black text-gray-900 tracking-tighter uppercase leading-none"
                 >
